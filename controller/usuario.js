@@ -139,17 +139,6 @@ async function register(req, res){
 }
 
 
-/*async function insert(req, res){
-    const usuario = new Usuario(req.body)
-    try{
-        let usuarioGuardado = await usuario.save();
-        res.status(200).json({accion:'save', datos: usuarioGuardado}) 
-    }catch(err){
-        res.status(500).json({accion:'save', mensaje:'error al guardar el usuario'}) 
-    }
-    
-}*/
-
 async function remove(req,res){
     let usuarioId = req.params.id;
     try{

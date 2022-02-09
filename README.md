@@ -9,3 +9,6 @@ Conectarse a mongo
 
 Instalar los modulos necesarios en nodejs
 # npm install joi bcrypt jsonwebtoken cors dotenv express mongoose morgan nodemon
+
+Arrancar el servidor
+# npm start
